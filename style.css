@@ -7002,7 +7002,7 @@ h2,
 
 .pcFeaturesList>li:before {
     content: "\e974";
-    color: #39b972;
+    color: red;
     font-size: 20px;
     font-family: "icomoon" !important;
     speak: none;
@@ -7574,11 +7574,11 @@ h2,
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 100%;
     width: 36px;
     height: 36px;
-    color: #2d3e8e;
+    color: white;
 }
 
 
@@ -15877,6 +15877,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     height: 0;
 }
 
+.success-main {
+    color: white;
+}
+
 .success-image {
     max-width: 10%;
 }
@@ -15936,4 +15940,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .chooseBtn::before {
     content: none !important;
+}
+
+body {
+    background-color: #212121;
+    height: 100%;
+}
+html {
+    height: 100%;
+}
+
+#privacy-text {
+    color: white;
 }

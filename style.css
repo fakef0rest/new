@@ -11782,7 +11782,7 @@ textarea.form-textArea {
     font-size: 40px;
     height: 48px;
     margin-bottom: 10px;
-    color: rgba(38, 55, 136, .5);
+    /* color: rgba(38, 55, 136, .5); */
     -webkit-transition: all .35s ease;
     transition: all .35s ease;
 }
@@ -15951,5 +15951,9 @@ html {
 }
 
 #privacy-text {
+    color: white;
+}
+
+.color-white {
     color: white;
 }
